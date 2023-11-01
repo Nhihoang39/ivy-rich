@@ -1,0 +1,406 @@
+@charset "UTF-8";
+/* CSS Document */
+
+section{padding:80px 0}
+#su-mang p{text-align:justify}
+#su-mang .banner{position:relative}
+
+#su-mang .bg-dot{position:absolute; width:30%; top:120px; left:-10%}
+#su-mang .frame-vuong{width:120px; height:100px; background:none; border:2px solid var(--bs-primary);position:absolute; top:70px; left:-50px}
+#su-mang h1{font-size:120px;font-weight:500; color:#333;position:absolute; top:70px; left:-50px;}
+#su-mang h5{color:#333;position:absolute; top:200px; left:-50px; font-size:30px;}
+
+
+#top-bar{font-size:14px}
+.menu-user a{color:#fff}
+.menu-user a:hover{color:#fff}
+.menu-user{position:relative;}
+.menu-user .drop-menu{
+position:absolute; left:0; top:100%; background:#333; width:130px; z-index:999; padding:15px; display:none
+}
+.menu-user:hover .drop-menu{display:block}
+#top-bar a{padding:10px; position:relative}
+#top-bar .badge{position:absolute; top:0; right:-5px; border-radius: 50%}
+#dich-vu, #danh-gia, #dich-vu2{background: url( "../img/bg-nen-1.png") center top; padding:5% 0;align-items:center;}
+
+#dich-vu h2, #dich-vu h3{font-weight:900}
+.title{text-shadow:12px 1px 1px #ffff;}
+#dich-vu .text-card, #tin-tuc .text-card {padding:8%;}
+#dich-vu a{color:var(--bs-primary)}
+#dich-vu a:hover, #tin-tuc a:hover{color:var(--bs-primary); text-decoration:underline}
+#dich-vu .text-card, #tin-tuc .text-card{position:relative}
+#dich-vu .card:hover, #tin-tuc .card:hover{box-shadow: 5px 5px 10px var(--bs-gray-500);}
+#dich-vu .icon-card{padding:5px; background:var(--bs-primary);position:absolute; left:5%; top:-15%}
+#dich-vu2 a{padding:8px; background:var(--bs-primary); color:#ffff; text-decoration-line: none;}
+#dich-vu2 .text-card{padding:8%; border:0; border-radius:0;}
+#dich-vu2 a:hover{text-decoration-line: underline}
+
+
+#du-an .card{position:relative; overflow:hidden; transition: all .5s ease-in-out}
+#du-an .card:hover >.w-100{transform: scale(1.1);}
+
+#chuyen-gia .card3{width:100%;position:relative;}
+#chuyen-gia .card3 .text-ngang{background:var(--bs-primary); padding:8px 8px 0 8px;position:absolute; right:10px; bottom:10px;}
+#chuyen-gia .card3 .text-doc{background:var(--bs-light);  padding:12px 12px 0 12px;position:absolute; left:-19%; top:60%; transform: rotate(-90deg);
+}
+#danh-gia .card{padding:36px 24px 24px 24px;border-left: 5px solid var(--bs-primary);position:relative}
+#danh-gia .icon-decor{width:100px; position:absolute; bottom:20px; right:20px}
+
+#tin-tuc .icon-card{padding:5px 16px 0 16px; background:var(--bs-primary);color:#ffff; position:absolute; left:0; top:-15%}
+#tin-tuc a{color:black}
+.banner-gt{height:350px;background: url("../img/Gioi thieu.jpg") no-repeat center}
+.banner-gt h1, .banner-gt2 h1, .banner-gt3 h1, .banner-gt5 h1{font-weight:700; color:#fff; text-shadow: 0px 5px 5px #202020;line-height: 350px;}
+.banner-gt2{height:350px;background: url("../img/dich-vu.jpg") no-repeat center}
+.banner-gt3{height:350px;background: url("../img/du-an.jpg") no-repeat center}
+.banner-gt4{height:350px;background: url("../img/chi-tiet-top.jpg") no-repeat center}
+.banner-gt4 h1, .banner-gt6 h1, .banner-gt7 h1{font-weight:700; color:#fff; text-shadow: 0px 5px 5px #202020;}
+.banner-gt4 .text4, .banner-gt6 .text4, .banner-gt7 .text4{padding-top:120px}
+.banner-gt5{height:350px;background: url("../img/chuyen-gia-top.jpg") no-repeat center}
+.banner-gt6{height:350px;background: url("../img/danh-gia-top.png") no-repeat center}
+.banner-gt7{height:350px;background: url("../img/blog-top.png") no-repeat center}
+
+.page-title{height:350px;background: url("../img/thong-tin-top.jpg") no-repeat center; display:flex; align-items:center; color:white}
+.page-title a{font-size:16px; }
+.page-title a:hover, .menu-aside .nav-link:hover{color:var(--bs-primary);}
+.menu-aside .nav-link{font-weight:800}
+aside h3.tilte{position:relative}
+aside h3.tilte::after{content:"";position:absolute; left:0; bottom:-10px; background:var(--bs-primary); width:10%;height:3px}
+.a-den a{color:#202020}
+.a-den a:hover{color:var(--bs-primary)}
+aside .tag a, .blog .tag a{background-color:var(--bs-primary);color:#fff;padding:4px 8px; margin:5px; display:inline-block; border-radius:4px;}
+.blog .card{padding:36px 24px 24px 24px;border-left: 5px solid var(--bs-primary);}
+.blog h5{font-weight: 900px;}
+
+
+/* footer */
+a{text-decoration: none; color:#fff}
+
+.navbar-light .nav-link{
+color:#263A5A;
+	text-transform:uppercase;
+	font-weight:600
+
+}
+
+.navbar-light .nav-link:hover{color:#BFCA02}
+
+.navbar-light .nav-item{
+	padding:10px 15px
+	
+}
+.mega-menu{
+	width:80%;
+	align:center;
+	margin-left:10%
+	
+	
+}
+.mega-menu .dropdown-item {
+	
+	color:#263A5A;
+	
+}
+.mega-menu .dropdown-item:hover{border-bottom:1px solid #BFCA02 }
+
+.mega-menu .dropdown-header{
+	color:#BFCA02; font-size:1.5rem
+}
+
+
+
+.navbar form .form-control{
+	border-radius:15px 0 0 15px;
+	border-color: var(--bs-secondary);
+	border-right:none
+}
+
+.navbar form .btn{
+	border-radius: 0 15px 15px 0
+}
+.carousel-caption{text-align:left; height:100%;padding-top:7%; padding-left:20px;}
+
+.carousel-caption .khung-xanh{border:5px solid var(--bs-primary);
+	width:25%; height:80%; position:absolute;top:15%; left:0; z-index:1}
+
+.carousel-caption .khung-text{position:absolute; z-index:5; background:rgba(255,255,255,0.8); padding:40px; color:black}
+
+footer .bg-dot{background:url( "../img/Rectangle 64.png")no-repeat center top; display:flex;align-items:center}
+.footer-menu a{display:block; color:#333; text-decoration:none; padding:5px; font-weight:500}
+
+.footer-menu a:hover{color:var(--bs-primary);}
+.footer-menu .btn-primary{width:100px}
+
+.bg-black-50{background-color:var(--bs-gray-100)}
+
+.page-title{background:url("../img/bg-pagetitle.jpg") no-repeat center top; height:300px; display:flex;align-items:center; color:white}
+
+.page-title a{color:#ddd; text-decoration:none}
+.page-title a:hover,.menu-aside .nav-link:hover{color:var(--bs-primary); }
+.menu-aside .nav-link{font-weight:800; color:black}
+aside h3.title{position:relative}
+aside h3.title:after{content:"";
+	position:absolute; left:0; bottom:-5px;background-color:var(--bs-primary); width:10%; height:3px}
+
+
+
+	@media only screen and (min-width: 1281px) {
+		
+	}
+
+	@media only screen and (min-width: 992px) and (max-width: 1280px){
+		#banner .w-100{min-height:300px;width:auto;}
+		
+		#chuyen-gia .card3 .text-doc{ padding:4px;position:absolute; left:-20%; top:50%;}
+		#chuyen-gia h4{font-size:20px}
+	}
+	
+	@media only screen and (min-width: 768px) and (max-width: 991px){
+	#banner .w-100{min-height:350px;width:auto;}
+	.khung-text{ padding-top:3px; min-width:200px}
+	#banner h3{font-size:20px}
+	#banner h6{font-size:16px}
+	#banner p{font-size:12px}
+	#top-bar{display:none}
+	
+	#chuyen-gia .card3 .text-doc{ padding:4px;position:absolute; left:-20%; top:40%;}
+	#chuyen-gia h4{font-size:14px}
+	}
+
+	@media only screen and (max-width: 767px){
+	#banner .w-100{min-height:350px;width:auto;}
+	.khung-text{ padding-top:3px; min-width:200px}
+	#banner h3{font-size:20px}
+	#banner h6{font-size:16px}
+	#banner p{font-size:12px}
+	#top-bar{display:none}
+	
+	#dich-vu .card, #du-an .card, #tin-tuc .card, #dich-vu2 .card{margin:20px 0}
+	#dich-vu{background:none}
+	#chuyen-gia .card3 .text-doc{background:var(--bs-light);  padding:12px 12px 0 12px;position:absolute; left:-19%; top:60%; transform: rotate(-90deg);
+}
+/* footer */
+a{text-decoration: none; color:#fff}
+
+.navbar-light .nav-link{
+color:#263A5A;
+	text-transform:uppercase;
+	font-weight:600
+
+}
+
+.navbar-light .nav-link:hover{color:#BFCA02}
+
+.navbar-light .nav-item{
+	padding:10px 15px
+	
+}
+.mega-menu{
+	width:80%;
+	align:center;
+	margin-left:10%
+	
+	
+}
+.mega-menu .dropdown-item {
+	
+	color:#263A5A;
+	
+}
+.mega-menu .dropdown-item:hover{border-bottom:1px solid #BFCA02 }
+
+.mega-menu .dropdown-header{
+	color:#BFCA02; font-size:1.5rem
+}
+
+
+
+.navbar form .form-control{
+	border-radius:15px 0 0 15px;
+	border-color: var(--bs-secondary);
+	border-right:none
+}
+
+.navbar form .btn{
+	border-radius: 0 15px 15px 0
+}
+.carousel-caption{text-align:left; height:100%;padding-top:7%; padding-left:20px;}
+
+.carousel-caption .khung-xanh{border:5px solid var(--bs-primary);
+	width:25%; height:80%; position:absolute;top:15%; left:0; z-index:1}
+
+.carousel-caption .khung-text{position:absolute; z-index:5; background:rgba(255,255,255,0.8); padding:40px; color:black}
+
+footer .bg-dot{background:url( "../img/Rectangle 64.png")no-repeat center top; display:flex;align-items:center}
+.footer-menu a{display:block; color:#333; text-decoration:none; padding:5px; font-weight:500}
+
+.footer-menu a:hover{color:var(--bs-primary);}
+.footer-menu .btn-primary{width:100px}
+
+.bg-black-50{background-color:var(--bs-gray-100)}
+
+.page-title{background:url("../img/bg-pagetitle.jpg") no-repeat center top; height:300px; display:flex;align-items:center; color:white}
+
+.page-title a{color:#ddd; text-decoration:none}
+.page-title a:hover,.menu-aside .nav-link:hover{color:var(--bs-primary); }
+.menu-aside .nav-link{font-weight:800; color:black}
+aside h3.title{position:relative}
+aside h3.title:after{content:"";
+	position:absolute; left:0; bottom:-5px;background-color:var(--bs-primary); width:10%; height:3px}
+
+
+
+	@media only screen and (min-width: 1281px) {
+		
+	}
+
+	@media only screen and (min-width: 992px) and (max-width: 1280px){
+		#banner .w-100{min-height:300px;width:auto;}
+		
+		#chuyen-gia .card3 .text-doc{ padding:4px;position:absolute; left:-20%; top:50%;}
+		#chuyen-gia h4{font-size:20px}
+	}
+	
+	@media only screen and (min-width: 768px) and (max-width: 991px){
+	#banner .w-100{min-height:350px;width:auto;}
+	.khung-text{ padding-top:3px; min-width:200px}
+	#banner h3{font-size:20px}
+	#banner h6{font-size:16px}
+	#banner p{font-size:12px}
+	#top-bar{display:none}
+	
+	#chuyen-gia .card3 .text-doc{ padding:4px;position:absolute; left:-20%; top:40%;}
+	#chuyen-gia h4{font-size:14px}
+	}
+
+	@media only screen and (max-width: 767px){
+	#banner .w-100{min-height:350px;width:auto;}
+	.khung-text{ padding-top:3px; min-width:200px}
+	#banner h3{font-size:20px}
+	#banner h6{font-size:16px}
+	#banner p{font-size:12px}
+	#top-bar{display:none}
+	
+	#dich-vu .card, #du-an .card, #chuyen-gia .card3, #tin-tuc .card{margin:20px 0}
+	#dich-vu{background:none}
+	#chuyen-gia .card3 .text-doc{background:var(--bs-light);  padding:12px 12px 0 12px;position:absolute; left:-19%; top:60%; transform: rotate(-90deg);
+}
+/* footer */
+a{text-decoration: none; color:#fff}
+
+.navbar-light .nav-link{
+color:#263A5A;
+	text-transform:uppercase;
+	font-weight:600
+
+}
+
+.navbar-light .nav-link:hover{color:#BFCA02}
+
+.navbar-light .nav-item{
+	padding:10px 15px
+	
+}
+.mega-menu{
+	width:80%;
+	align:center;
+	margin-left:10%
+	
+	
+}
+.mega-menu .dropdown-item {
+	
+	color:#263A5A;
+	
+}
+.mega-menu .dropdown-item:hover{border-bottom:1px solid #BFCA02 }
+
+.mega-menu .dropdown-header{
+	color:#BFCA02; font-size:1.5rem
+}
+
+
+
+.navbar form .form-control{
+	border-radius:15px 0 0 15px;
+	border-color: var(--bs-secondary);
+	border-right:none
+}
+
+.navbar form .btn{
+	border-radius: 0 15px 15px 0
+}
+.carousel-caption{text-align:left; height:100%;padding-top:7%; padding-left:20px;}
+
+.carousel-caption .khung-xanh{border:5px solid var(--bs-primary);
+	width:25%; height:80%; position:absolute;top:15%; left:0; z-index:1}
+
+.carousel-caption .khung-text{position:absolute; z-index:5; background:rgba(255,255,255,0.8); padding:40px; color:black}
+
+footer .bg-dot{background:url( "../img/Rectangle 64.png")no-repeat center top; display:flex;align-items:center}
+.footer-menu a{display:block; color:#333; text-decoration:none; padding:5px; font-weight:500}
+
+.footer-menu a:hover{color:var(--bs-primary);}
+.footer-menu .btn-primary{width:100px}
+
+.bg-black-50{background-color:var(--bs-gray-100)}
+
+.page-title{background:url("../img/bg-pagetitle.jpg") no-repeat center top; height:300px; display:flex;align-items:center; color:white}
+
+.page-title a{color:#ddd; text-decoration:none}
+.page-title a:hover,.menu-aside .nav-link:hover{color:var(--bs-primary); }
+.menu-aside .nav-link{font-weight:800; color:black}
+aside h3.title{position:relative}
+aside h3.title:after{content:"";
+	position:absolute; left:0; bottom:-5px;background-color:var(--bs-primary); width:10%; height:3px}
+
+
+
+	@media only screen and (min-width: 1281px) {
+		
+	}
+
+	@media only screen and (min-width: 992px) and (max-width: 1280px){
+		#banner .w-100{min-height:300px;width:auto;}
+		
+		#chuyen-gia .card .text-doc{ padding:4px;position:absolute; left:-20%; top:50%;}
+		#chuyen-gia h4{font-size:20px}
+		#danh-gia .me-5{margin-right: 1rem !important;}
+		
+
+	}
+	
+	@media only screen and (min-width: 768px) and (max-width: 991px){
+	#banner .w-100{min-height:350px;width:auto;}
+	.khung-text{ padding-top:3px; min-width:200px}
+	#banner h3{font-size:20px}
+	#banner h6{font-size:16px}
+	#banner p{font-size:12px}
+	#top-bar{display:none}
+	
+	#chuyen-gia .card3 .text-doc{ padding:4px;position:absolute; left:-20%; top:40%;}
+	#chuyen-gia h4{font-size:14px}
+	#danh-gia .me-5{margin-right: 0.5rem !important;}
+	#su-mang .decor{position:absolute; top:20%; right:0}
+	}
+
+	@media only screen and (max-width: 767px){
+	#banner .w-100{min-height:350px;width:auto;}
+	.khung-text{ padding-top:3px; min-width:200px}
+	#banner h3{font-size:20px}
+	#banner h6{font-size:16px}
+	#banner p{font-size:12px}
+	#top-bar{display:none}
+	
+	#dich-vu .card, #du-an .card, #chuyen-gia .card3, #tin-tuc .card, #dich-vu2 .card{margin:20px 0}
+	#dich-vu{background:none}
+	#chuyen-gia .card3 .text-doc{left:-15%; top:60%;}
+	#danh-gia .me-5{margin-right: 0.5rem  !important;}
+	#su-mang .decor{position:absolute; left:50%}
+	#su-mang h1, #su-mang h5{color:#fff}
+	.banner-gt3 h1{font-size:24px}
+	}
+
+
+
+
+
